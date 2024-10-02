@@ -116,7 +116,7 @@ import marriage from "../src/assets/marriage.png";
 
 export default function App() {
   return (
-    <div className="flex flex-col h-screen overflow-x-hidden bg-red-500">
+    <div className="flex flex-col h-screen overflow-x-hidden bg-gallery">
       <div className="min-h-screen bg-background">
         <div className="py-3">
           <h2 className="text-sm text-center font-kumbh text-customPink">October 18</h2>
