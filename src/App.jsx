@@ -88,18 +88,18 @@ export default function App() {
           </div>
         </div>
       </div>
-      <div className="min-h-screen bg-overall">
-        <div className="flex ">
-          <div className="w-1/2 ">
-            <div className="relative left-[163px] top-[220px] bg-gallerygradient bg-clip-text text-transparent max-w-[408px] leading-[94px] font-publicsans">
-              <h2 className=" text-[80px]">Gallery</h2>
-              <div className=" text-[80px]">&Moments</div>
+      <div className="min-h-screen">
+        <div className="block lg:flex">
+          <div className="w-full bg-overall lg:w-1/2 h-[442px] lg:h-screen">
+            <div className="relative left-6 lg:left-[163px] top-20 lg:top-[220px] bg-gallerygradient bg-clip-text text-transparent lg:max-w-[408px] max-w-[300px] leading-[70px] lg:leading-[94px] font-publicsans">
+              <h2 className="text-[60px] lg:text-[80px]">Gallery</h2>
+              <div className=" text-[60px] lg:text-[80px]">&Moments</div>
             </div>
-            <div className=" relative left-[163px] top-[210px]">
-              <h2 className=" text-your font-sans font-light text-[40px]">your beautiful moments</h2>
+            <div className=" relative left-6 lg:left-[163px] top-24 lg:top-[210px]">
+              <h2 className=" text-your font-sans font-light text-[30px] lg:text-[40px]">your beautiful moments</h2>
             </div>
           </div>
-          <div className="w-1/2 min-h-screen px-20 py-10 bg-gallery">
+          <div className="w-full px-2 py-20 lg:px-20 lg:py-10 h-[442px] lg:h-screen lg:w-1/2 bg-gallery">
             <img src={marriage} alt="marriage" className="" />
           </div>
         </div>
