@@ -126,12 +126,12 @@ export default function App() {
             <img src={leaf_left} alt="leaf" className="relative -top-0 lg:-top-20 -left-14 lg:-left-[148px] lg:h-[612px] lg:w-[408px] w-[600px] h-[400px]" />
           </div>
           <div className="flex flex-col items-center justify-center flex-grow">
-            <div className="relative flex items-center justify-center top-28 lg:-top-16">
+            <div className="relative flex items-center justify-center top-10 lg:-top-16">
               <h2 className="text-3xl lg:text-[120px] font-belle text-namePink text-opacity-60">Kavya</h2>
               <img src={rose} alt="rose" className="w-28 lg:w-[285px] h-48 lg:h-[410px]" />
               <h2 className="text-3xl lg:text-[120px] font-belle text-namePink text-opacity-60">Rohan</h2>
             </div>
-            <div className="relative flex justify-center top-40 lg:-top-10">
+            <div className="relative flex justify-center top-16 lg:-top-10">
               <div className="bg-button flex justify-center items-center text-white rounded-full text-[15px] font-publicsans w-[138px] h-[36px]">
                 <p className="">Save the Date</p>
               </div>
@@ -141,7 +141,7 @@ export default function App() {
             <img src={leaf_left} alt="leaf" className="relative scale-x-[-1] lg:h-[612px] lg:w-[408px] w-[600px] h-[400px]" />
           </div>
         </div>
-        <div className="relative bottom-0 flex top-[280px] lg:-top-20 left-1/4 lg:left-[546px] font-publicsans">
+        <div className="relative bottom-0 flex top-[114px] lg:-top-20 left-1/4 lg:left-[546px] font-publicsans">
           <div className="w-[75px] h-[75px] lg:w-[150px] lg:h-[150px] rounded-full relative bg-round border-[5px] border-background2 text-background2 justify-center">
             <h3 className="text-center text-[26px] lg:text-[54px] font-light mt-2 lg:mt-6">23</h3>
             <p className="text-center text-[14px] lg:text-[20px] -mt-3 lg:-mt-6 -ml-2 lg:-ml-4">days</p>
@@ -167,15 +167,15 @@ export default function App() {
             <span className="text-textgradient">WE ARE </span>
             <span className="text-married">GETTING MARRIED</span>
           </div>
-          <div className="font-publicsans text-[14px] lg:text-[20px] leading-[16px] lg:leading-[23.5px] flex mx-auto mt-10 lg:mt-7 text-para max-w-[240px] lg:max-w-[782px]">
+          <div className="font-publicsans text-[14px] lg:text-[20px] leading-[16px] lg:leading-[23.5px] flex mx-auto mt-4 lg:mt-7 text-para max-w-[240px] lg:max-w-[782px]">
             <p className="text-center text-opacity-80">s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
         </div>
         <div>
-          <img src={leaf_left} alt="leaf" className="relative -top-[320px] lg:-top-[720px] left-[200px] lg:left-[1263px] scale-x-[-1] lg:h-[612px] lg:w-[408px] w-[600px] h-[400px]" />
+          <img src={leaf_left} alt="leaf" className="relative -top-[380px] lg:-top-[720px] left-[200px] lg:left-[1263px] scale-x-[-1] lg:h-[612px] lg:w-[408px] w-[600px] h-[400px]" />
         </div>
         <div>
-          <img src={flower} alt="flower" className="relative -top-[680px] lg:-top-[1450px] h-[350px] lg:h-[612px] -left-14 lg:-left-[90px] -rotate--16.14" />
+          <img src={flower} alt="flower" className="relative -top-[750px] lg:-top-[1450px] h-[280px] lg:h-[612px] -left-14 lg:-left-[90px] -rotate--16.14" />
         </div>
       </div>
 
@@ -183,7 +183,7 @@ export default function App() {
         <div className="min-h-[1080px] bg-round2">
           <div className="block lg:flex">
             <div className="w-full lg:w-1/2">
-              <img src={couple} alt="couple" className="w-full lg:w-[825px] h-[422px] lg:h-[1080px]" />
+              <img src={couple} alt="couple" className="w-full lg:w-[825px] h-[540px] lg:h-[1080px]" />
             </div>
             <div className="w-full lg:w-1/2">
               <div className="relative left-10 lg:left-20 top-10 lg:top-28 font-publicsans text-[45px] lg:text-[103px] leading-[60px] lg:leading-[121.3px]">
