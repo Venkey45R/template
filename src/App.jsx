@@ -30,7 +30,7 @@ export default function App() {
             <img src={leaf_left} alt="leaf" className="relative scale-x-[-1] lg:h-[612px] lg:w-[408px] w-[600px] h-[400px]" />
           </div>
         </div>
-        <div className="relative bottom-0 flex top-[330px] lg:-top-20 left-1/4 lg:left-[546px] font-publicsans">
+        <div className="relative bottom-0 flex top-[280px] lg:-top-20 left-1/4 lg:left-[546px] font-publicsans">
           <div className=" w-[75px] h-[75px] lg:w-[150px] lg:h-[150px] rounded-full relative bg-round border-[5px] border-background2 text-background2 justify-center">
             <h3 className="text-center text-[26px] lg:text-[54px] font-light mt-2 lg:mt-6">23</h3>
             <p className="text-center text-[14px] lg:text-[20px] -mt-3 lg:-mt-6 -ml-2 lg:-ml-4">days</p>
